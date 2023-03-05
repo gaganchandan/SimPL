@@ -1,4 +1,4 @@
 (executable
- (public_name SimPL)
+ (public_name simpl)
  (name main)
  (libraries SimPL))
