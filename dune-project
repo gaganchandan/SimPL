@@ -7,22 +7,15 @@
 (generate_opam_files true)
 
 (source
- (github username/reponame))
+ (github gaganchandan/SimPL))
 
-(authors "Author Name")
+(authors "Gagan Chandan")
 
-(maintainers "Maintainer Name")
+(maintainers "Gagan Chandan")
 
 (license LICENSE)
 
-(documentation https://url/to/documentation)
-
 (package
  (name SimPL)
- (synopsis "A short synopsis")
- (description "A longer description")
+ (synopsis "An interpreter for the SimPL programming language")
  (depends ocaml dune)
- (tags
-  (topics "to describe" your project)))
-
-; See the complete stanza docs at https://dune.readthedocs.io/en/stable/dune-files.html#dune-project
